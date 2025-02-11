@@ -1,12 +1,11 @@
-from flask import Blueprint
-from app.controllers.client.homepage_controller import home, about 
+from flask import Blueprint, render_template
 
 main_routes = Blueprint('main', __name__)
 
 @main_routes.route("/")
 def homepage():
-    return home()
+    return render_template("pages/client/homepage.html")
 
-@main_routes.route("/about")
-def about_page():
-    return about()
+@main_routes.route("/about-me")
+def about_me():
+    return render_template("pages/client/about-me.html")
