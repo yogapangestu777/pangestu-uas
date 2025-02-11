@@ -13,3 +13,7 @@ def about_me():
 @main_routes.route("/projects")
 def project():
     return render_template("pages/client/project.html")
+
+@main_routes.route("/blogs")
+def blog():
+    return render_template("pages/client/blog.html")
