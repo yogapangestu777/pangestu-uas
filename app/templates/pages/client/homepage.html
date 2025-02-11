@@ -52,8 +52,6 @@
                     From building modern, responsive websites to optimizing performance and functionality,
                     I provide high-quality solutions to help you achieve your goals.
                 </p>
-                <a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end">More Details <i
-                        class="uil uil-arrow-up-right"></i></a>
             </div>
             <!-- /column -->
             <div class="col-lg-6 ms-auto">
@@ -148,8 +146,8 @@
             </div>
             <!--/column -->
             <div class="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
-                <a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end mb-0">See All Projects <i
-                        class="uil uil-arrow-up-right"></i></a>
+                <a href="{{ url_for('main.project') }}" class="btn btn-lg btn-primary btn-icon btn-icon-end mb-0">See
+                    All Projects <i class="uil uil-arrow-up-right"></i></a>
             </div>
             <!--/column -->
         </div>
@@ -171,7 +169,8 @@
                     <!-- /column -->
                     <div class="col-lg-7 offset-lg-1 align-self-end">
                         <figure>
-                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/projects/f1.png')}}"
+                            <img class="img-fluid"
+                                src="{{ url_for('static', filename='assets/img/projects/sibadeksa/home.png')}}"
                                 alt="image" />
                         </figure>
                     </div>
@@ -197,8 +196,10 @@
                     </div>
                     <!-- /column -->
                     <div class="col-lg-7">
-                        <figure><img class="img-fluid"
-                                src="{{ url_for('static', filename='assets/img/projects/f2.png')}}" alt="image" />
+                        <figure>
+                            <img class="img-fluid"
+                                src="{{ url_for('static', filename='assets/img/projects/simedkom/admin.png')}}"
+                                alt="image" />
                         </figure>
                     </div>
                     <!-- /column -->
@@ -222,8 +223,8 @@
                                 class="uil uil-arrow-up-right"></i></a>
                     </div>
                     <!--/.card-body -->
-                    <img class="card-img-bottom" src="{{ url_for('static', filename='assets/img/projects/f3.png')}}"
-                        alt="image" />
+                    <img class="card-img-bottom p-5"
+                        src="{{ url_for('static', filename='assets/img/projects/mastercut/admin.png')}}" alt="image" />
                 </div>
                 <!--/.card -->
             </div>
@@ -241,8 +242,8 @@
                                 class="uil uil-arrow-up-right"></i></a>
                     </div>
                     <!--/.card-body -->
-                    <img class="card-img-bottom" src="{{ url_for('static', filename='assets/img/projects/f4.png')}}"
-                        alt="image" />
+                    <img class="card-img-bottom p-5"
+                        src="{{ url_for('static', filename='assets/img/projects/catalyst/admin.png')}}" alt="image" />
                 </div>
                 <!--/.card -->
             </div>
