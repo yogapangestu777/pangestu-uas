@@ -9,3 +9,7 @@ def homepage():
 @main_routes.route("/about-me")
 def about_me():
     return render_template("pages/client/about-me.html")
+
+@main_routes.route("/projects")
+def project():
+    return render_template("pages/client/project.html")

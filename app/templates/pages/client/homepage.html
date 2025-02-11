@@ -3,6 +3,7 @@
 {% block title %}Home - Flask Client{% endblock %}
 
 {% block app %}
+
 <section class="section-frame mx-xxl-11 overflow-hidden">
     <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500"
         data-image-src="{{ url_for('static', filename='assets/img/photos/bg23.png')}}">
@@ -29,7 +30,7 @@
                         I am very passionate about the work I do. Explore further to
                         see the various projects I have worked on and my experience in web development.
                     </p>
-                    <a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end">
+                    <a href="{{ url_for('main.project') }}" class="btn btn-lg btn-primary btn-icon btn-icon-end">
                         View My Work <i class="uil uil-arrow-up-right"></i>
                     </a>
                 </div>
@@ -41,7 +42,7 @@
     </div>
     <!-- /.wrapper -->
 </section>
-<!-- /section -->
+
 <section class="wrapper bg-light">
     <div class="container pt-16 pt-md-18">
         <div class="row d-flex align-items-start gy-10 mb-18 mb-md-20">
@@ -251,5 +252,5 @@
     </div>
     <!-- /.container -->
 </section>
-<!-- /section -->
+
 {% endblock %}

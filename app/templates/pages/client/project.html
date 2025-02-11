@@ -1,0 +1,781 @@
+{% extends 'layouts/client.html' %}
+
+{% block title %}Home - Flask Client{% endblock %}
+
+{% block app %}
+
+<section class="wrapper bg-gray2">
+    <div class="container py-14 py-md-16">
+        <div class="row mt-6">
+            <div class="col-xl-10 mx-auto">
+                <div class="projects-tiles">
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-red mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Sibadeksa</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>An Integrated Database Information System for the
+                                            Development of the Economic
+                                            Sector
+                                            and Natural Resources.
+                                            Facilitates analysis and data management to support development policies.
+                                        </p>
+                                        <a href="https://sibadeksa.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-red">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Admin Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/sibadeksa/admin.png')}}"
+                                        data-glightbox="title: Admin Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/sibadeksa/admin.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/sibadeksa/login.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/sibadeksa/login.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Landing Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/sibadeksa/home.png')}}"
+                                        data-glightbox="title: Landing Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/sibadeksa/home.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Admin Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/simedkom/admin.png')}}"
+                                        data-glightbox="title: Admin Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/simedkom/admin.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-yellow mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Simedkom</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>An Information System for Media and Communication
+                                            Management, enabling efficient data
+                                            sharing,
+                                            collaboration, and information dissemination.
+                                        </p>
+                                        <a href="https://simedkom.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-yellow">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/simedkom/login.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/simedkom/login.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Landing Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/simedkom/home.png')}}"
+                                        data-glightbox="title: Landing Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/simedkom/home.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-orange mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Mastercut Barbershop</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>A premium barbershop offering professional haircuts,
+                                            grooming services, and a stylish
+                                            experience
+                                            to keep you looking your best.
+                                        </p>
+                                        <a href="https://mastercutpabuaran.com" target="_blank"
+                                            class="more hover link-orange">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Admin Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/mastercut/admin.png')}}"
+                                        data-glightbox="title: Admin Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/mastercut/admin.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/mastercut/login.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/mastercut/login.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Landing Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/mastercut/home.png')}}"
+                                        data-glightbox="title: Landing Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/mastercut/home.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Admin Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/convection/admin.png')}}"
+                                        data-glightbox="title: Admin Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/convection/admin.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-leaf mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Konveksi DST</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Manages production, orders, and inventory for a garment
+                                            business, optimizing workflow, tracking materials, and ensuring efficient
+                                            order fulfillment.
+                                        </p>
+                                        <a href="https://dstpabuaran.com" target="_blank"
+                                            class="more hover link-leaf">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/convection/login.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/convection/login.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Landing Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/convection/pattern.png')}}"
+                                        data-glightbox="title: Landing Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/convection/pattern.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-pink mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Catalys Indonesia</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>A leading catalyst industry in Indonesia, dedicated to
+                                            innovation and sustainability
+                                            in energy development
+                                            to support national industrial growth.
+                                        </p>
+                                        <a href="https://katalis-indonesia.com" target="_blank"
+                                            class="more hover link-pink">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Admin Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/catalyst/admin.png')}}"
+                                        data-glightbox="title: Admin Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/catalyst/admin.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/catalyst/login.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/catalyst/login.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Landing Page</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/projects/catalyst/home.png')}}"
+                                        data-glightbox="title: Landing Page" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/projects/catalyst/home.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-purple mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Simperkim</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Manages internal data for Distarkim, optimizing
+                                            information handling, improving workflow efficiency, and supporting better
+                                            decision-making.
+                                        </p>
+                                        <a href="https://simperkim.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-purple">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-violet mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Sianaksultan</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Analyzes workforce needs in Purwakarta, offering insights
+                                            into labor demand, job classifications, and competencies under official
+                                            guidance.
+                                        </p>
+                                        <a href="https://sianaksultan.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-violet">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-green mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Yadi Parfum</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Manages Yadi Parfum’s product data, orders, and customer
+                                            interactions, ensuring efficient inventory control and a seamless shopping
+                                            experience.
+                                        </p>
+                                        <a href="https://yadiparfum.com" target="_blank"
+                                            class="more hover link-green">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-blue mb-3">Company</div>
+                                        <h2 class="post-title mb-3">PPID</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Manages public information for PPID, ensuring
+                                            transparency, efficient data access, and compliance with information
+                                            disclosure regulations.
+                                        </p>
+                                        <a href="https://ppid.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-blue">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-aqua mb-3">Company</div>
+                                        <h2 class="post-title mb-3">CSR Purwakarta</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Provides information on CSR initiatives in Purwakarta,
+                                            promoting transparency, collaboration, and community development efforts.
+                                        </p>
+                                        <a href="https://csr.purwakartakab.go.id" target="_blank"
+                                            class="more hover link-aqua">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-fuchsia mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">VN Store</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>
+                                            Manages VN Store’s clothing inventory, orders, and customer transactions,
+                                            ensuring efficient stock tracking, smooth sales processes, and better
+                                            service.
+                                        </p>
+                                        <a href="https://vngrou p.shop" target="_blank"
+                                            class="more hover link-fuchsia">See
+                                            Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-ash mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Attendance App</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Develops a custom attendance app for a student’s project,
+                                            providing efficient tracking, verification, and reporting features as per
+                                            their requirements.
+                                        </p>
+                                        <span class="text-danger">* The application is not published</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-navy mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Pharmacy</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>
+                                            Develops a custom pharmacy app for a student’s project, featuring inventory
+                                            management, prescription tracking, and efficient reporting tools.
+                                        </p>
+                                        <span class="text-danger">* The application is not published</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-grape mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">E-Commerce Hub</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Develops a custom online store app for a student’s
+                                            project, enabling product management, order processing, and seamless
+                                            transactions.
+                                        </p>
+                                        <span class="text-danger">* The application is not published</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-sky mb-3">Personal</div>
+                                        <h2 class="post-title mb-3">Perfume Store</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>
+                                            Develops a custom perfume store app for a student’s project, featuring
+                                            product catalogs, order tracking, and customer management.
+                                        </p>
+                                        <span class="text-danger">* The application is not published</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project grid grid-view">
+                        <div class="row g-6 isotope">
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Post</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                        data-glightbox="title: Post" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/post.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+                                        <div class="post-category text-grape mb-3">Company</div>
+                                        <h2 class="post-title mb-3">Webdesaku</h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>Manages e-commerce for 189 villages and centralizes village data across
+                                            Purwakarta, enabling efficient trade, data access, and development tracking.
+                                        </p>
+                                        <span class="text-info">* The application is currently under
+                                            development.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">Blog</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                        data-glightbox="title: Blog" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/blog.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="item col-md-6">
+                                <figure class="itooltip itooltip-light hover-scale rounded"
+                                    title='<h5 class="mb-0">App</h5>'><a
+                                        href="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                        data-glightbox="title: App" data-gallery="project-1"> <img
+                                            src="{{ url_for('static',filename='assets/img/defaults/app.png')}}"
+                                            alt="" /></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
