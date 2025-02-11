@@ -17,3 +17,7 @@ def project():
 @main_routes.route("/blogs")
 def blog():
     return render_template("pages/client/blog.html")
+
+@main_routes.route("/contact-me")
+def contact_me():
+    return render_template("pages/client/contact-me.html")
