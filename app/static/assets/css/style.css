@@ -48851,3 +48851,23 @@ footer.bg-dark.angled.upper-start:before {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.navbar-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FAB758 !important;
+}
+
+.nav-link.active {
+    color: #FAB758 !important;
+    font-weight: 600 !important;
+}
